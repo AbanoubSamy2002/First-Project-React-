@@ -1,0 +1,169 @@
+.active{
+background-color:#1ABC9C !important;
+border-radius: 10px;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+#navpage{
+  background-color: #2C3E50 !important;
+}
+
+#footerpage{
+  background-color: #2C3E50 !important;
+}
+
+.homepage{
+  width: 100% ;
+  background-color: #1ABC9C;
+  min-height: 80vh;
+}
+
+.p-page-2{
+  line-height: 24px;
+  font-weight: 400;  
+  font-size: 16px;
+  text-align: start;
+}
+.homepage-contact{
+min-height: 80vh;
+}
+
+
+.layer:hover {
+  opacity: 1;
+}
+.layer {
+  background-color: #1abc9ce6;
+  transition: .6s opacity;
+  
+  cursor: pointer;
+  opacity: 0;
+}
+
+.line {
+  height: 4px;
+  width: 80px;
+}
+
+.line-1{
+  background-color: #2C3E50;
+}
+
+.line-2{
+  background-color: #2C3E50;
+}
+
+.line-4{
+  background-color: white;
+}
+.line-5{
+
+  background-color: white;
+}
+
+.icon-fotter {
+  border: 1px white solid;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.footer-end{
+  background-color: #1A252F;
+  height: 10vh;
+}
+
+
+.top-1 {
+  top: 40px!important;
+}
+.label-1 {
+  color: #1ABC9C;
+  margin-bottom: 7px;
+  transition: .6s top;
+}
+
+.form-control:focus {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 .25rem transparent !important;
+}
+
+.btnn{
+background-color: #1ABC9C !important;
+}
+
+
+
+.img-445{
+
+  width: 65%;
+}
+
+
+.content {
+  margin-top: 90px;
+  padding: 20px;
+  background-color: #1ABC9C;
+}
+.content-3{
+  margin-top: 90px; 
+  padding: 20px;
+  background-color: white;
+}
+
+@media all and (min-width:200px) and (max-width:992px){
+.img-444{
+  width: 100%;
+}
+
+.forom{
+  width: 100%;
+}
+
+}
+
+@media all and (min-width:993px)and (min-width:1400px){
+  .img-444{
+    width: 35%;
+  }
+ 
+
+  .forom{
+    width: 50%;
+  }
+  
+  }
+
+
+
+
